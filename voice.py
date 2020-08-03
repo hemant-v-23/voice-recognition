@@ -11,3 +11,8 @@ with sr.Microphone() as source:
         print('you said : {}'.format(text))
     except:
         print('sorry could not recognize')
+        
+# if pyaudio module can't be downloaded from your local IDE
+# download it from python utilities from web
+# move the pyaudio file to python folder in your PC
+# copy the pyaudio path and paste into your environmental variables in your Pc settings to use it. 
